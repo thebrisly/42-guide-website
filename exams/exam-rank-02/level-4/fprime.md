@@ -41,7 +41,7 @@ $
 
 <details>
 
-<summary>epur_str</summary>
+<summary>fprime</summary>
 
 {% code title="fprime.c" overflow="wrap" lineNumbers="true" %}
 ```c
