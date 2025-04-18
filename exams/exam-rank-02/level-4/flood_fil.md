@@ -68,11 +68,12 @@ $> gcc flood_fill.c test_main.c test_functions.c -o flood_fill; ./flood_fill
 $> 
 ------------------------------------------------------------------------------*/
 ```
-{% endcode %}
 
 ### Commented solution
 
-{% code overflow="wrap" lineNumbers="true" %}
+<summary>flood_fill</summary>
+
+{% code title="flood_fill.c" overflow="wrap" lineNumbers="true" %}
 ```c
 #include "flood_fill.h"
 
@@ -103,8 +104,9 @@ void flood_fill(char **tab, t_point size, t_point begin)
     char target = tab[begin.y][begin.x]; // Get the character to fill around
     fill(tab, size, target, begin.y, begin.x); // Start the flood fill from the specified point
 }
-
 ```
 {% endcode %}
+
+</details>
 
 You can then use the example of the subject to see if you did everything right :-)
