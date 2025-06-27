@@ -1,10 +1,6 @@
----
-description: >-
-  This solution has been proposed by Duc Nguyen (Github
-  :https://github.com/nguyenduc-03/42Student)
----
-
 # ft\_strpbrk
+
+This solution has been proposed by Duc Nguyen ([Find his Github link here ](https://github.com/nguyenduc-03/42Student))
 
 ### Subject
 
