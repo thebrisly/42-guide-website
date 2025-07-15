@@ -55,10 +55,10 @@ char *ft_strpbrk(const char *s1, const char *s2)
 {
     int i = 0;
     int j = 0;
-    char *re = (char *)s1;
 
     while (s1[i])
     {
+        char *re = (char *)s1;
         j = 0;
         while (s2[j])
         {
