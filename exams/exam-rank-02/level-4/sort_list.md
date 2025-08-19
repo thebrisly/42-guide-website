@@ -54,7 +54,7 @@ t_list	*sort_list(t_list *lst, int (*cmp)(int, int))
 	int tmp;
 	t_list *head;
 
-	head = tmp;
+	head = lst;
 	while (lst != NULL && lst->next != NULL)
 	{
 		if ((*cmp)(lst->data, lst->next->data) == 0)
